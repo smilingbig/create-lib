@@ -6,8 +6,8 @@
   "scripts": {
     "build": "esbuild ./src/main.ts --bundle --outfile=./dist/output.js",
     "dev": "jest --watch",
-    "fmt": "prettier --write .",
-    "lint": "eslint --fix --ext .ts ",
+    "fmt": "prettier --write",
+    "lint": "eslint --fix --ext .ts",
     "prepare": "husky install",
     "test": "jest",
     "types": "tsc --noEmit",
@@ -37,8 +37,9 @@
       "pnpm lint",
       "pnpm types",
       "pnpm test",
-      "pnpm build"
-    ]
+      "bash -c \"pnpm build\""
+    ],
+    "package.json": ["bash -c \"pnpm install\""]
   },
   "engines": {
     "node": ">16.0.0",

@@ -16,19 +16,9 @@
 [] - Licensing.
 [x] - pnpm workspaces maybe
 [] - Docs/readme
-[] - Precommit hooks
+[x] - Precommit hooks
 [] - ci
 [] - generator, was thinking to just use a basic bash app to read a few stdin's and sed some placeholders
 [] - Look into a more custom eslint config
 [] - Setup to work as an package install that exposes commands
 
-# Bugs
-
-linting isn't working correctly
-Currently can't pnpm build in lint-staged because all files are passed into esbuild, but I currently have a single target
-There is also with tsc setup and esbuild. I'm not sure the best way to have this setup to allow me to have declaration files generated but not generate js files
-Also I should redo my commit hooks to only run the files that are passed into them.
-
-# Notes
-
-Lookined into workspaces, probably over complicated for usecase
