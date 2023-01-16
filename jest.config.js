@@ -1,7 +1,8 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
   verbose: true,
-  preset: "ts-jest",
+  transform: {
+    "^.+\\.tsx?$": "esbuild-jest",
+  },
   testEnvironment: "node",
   collectCoverage: true,
   coverageDirectory: "coverage",
