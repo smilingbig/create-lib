@@ -12,3 +12,6 @@ parserOptions:
   sourceType: module
 plugins:
   - "@typescript-eslint"
+rules:
+  complexity: 1
+  consistent-return: 2

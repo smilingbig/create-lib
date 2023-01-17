@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild ./src/main.ts --bundle --outfile=./dist/output.js",
+    "build": "node ./tasks/build.js",
     "dev": "jest --watch",
     "fmt": "prettier --write",
-    "lint": "eslint --fix --ext .ts",
+    "lint": "eslint --fix --ext .ts,.js",
     "prepare": "husky install",
     "test": "jest",
     "types": "tsc --noEmit",
@@ -32,7 +32,7 @@
     "typescript": "^4.9.4"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{ts,js}": [
       "pnpm fmt",
       "pnpm lint",
       "pnpm types",

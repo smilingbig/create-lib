@@ -11,13 +11,18 @@
 
 # TODO
 
+- [x] Move esbuild config into a file instead of just inline
 - [x] Watch mode/dev mode
 - [x] Linting/formatting
-- [ ] Licensing.
 - [x] pnpm workspaces maybe
-- [ ] Docs/readme
 - [x] Precommit hooks
+- [x] Look into a more custom eslint config
+- [ ] Licensing.
+- [ ] Docs/readme
 - [ ] ci
 - [ ] generator, was thinking to just use a basic bash app to read a few stdin's and sed some placeholders
-- [ ] Look into a more custom eslint config
 - [ ] Setup to work as an package install that exposes commands
+
+# Notes
+
+Started working on CI using github workflow action things. Need to tidy up the current implementation after a bit of studying.
