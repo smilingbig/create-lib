@@ -13,11 +13,11 @@
 
 - [x] Watch mode/dev mode
 - [x] Linting/formatting
-- [] Licensing.
+- [ ] Licensing.
 - [x] pnpm workspaces maybe
-- [] Docs/readme
+- [ ] Docs/readme
 - [x] Precommit hooks
-- [] ci
-- [] generator, was thinking to just use a basic bash app to read a few stdin's and sed some placeholders
-- [] Look into a more custom eslint config
-- [] Setup to work as an package install that exposes commands
+- [ ] ci
+- [ ] generator, was thinking to just use a basic bash app to read a few stdin's and sed some placeholders
+- [ ] Look into a more custom eslint config
+- [ ] Setup to work as an package install that exposes commands
