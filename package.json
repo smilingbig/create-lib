@@ -39,6 +39,7 @@
       "pnpm test",
       "bash -c \"pnpm build\""
     ],
+    "*.{md, json, yaml}": "pnpm fmt",
     "package.json": ["bash -c \"pnpm install\""]
   },
   "engines": {
